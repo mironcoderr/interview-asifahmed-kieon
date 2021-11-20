@@ -1,0 +1,33 @@
+.btn {
+    width: 186px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 14px;
+    text-transform: capitalize;
+    box-shadow: $primary-bshadow;
+
+    i {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+}
+
+.btn-primary {
+    color: $white;
+    background: $primary;
+}
+
+.btn-white {
+    color: $text;
+    background: $white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.btn-outline-primary {
+    color: $primary;
+    background: $white;
+    border: 1px solid $primary;
+}

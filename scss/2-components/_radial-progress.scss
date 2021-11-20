@@ -1,0 +1,43 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 80px;
+    transform: rotate(-90deg);
+}
+
+svg.radial-progress circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 9;
+}
+
+svg.radial-progress circle.incomplete {
+    opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129;
+    /* Circumference */
+}
+
+svg.radial-progress text {
+    font-size: 20px;
+    font-weight: 700;
+    text-anchor: middle;
+}
+
+.radial-progress.pink text {
+    fill: $pink;
+}
+
+.radial-progress.pink circle {
+    stroke: $pink;
+}
+
+.radial-progress.aqua text {
+    fill: $aqua;
+}
+
+.radial-progress.aqua circle {
+    stroke: $aqua;
+}
